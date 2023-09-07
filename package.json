@@ -13,7 +13,7 @@
 	],
 	"main": "./out/server.js",
 	"bin": {
-		"unocss-language-server": "./bin/index.js"
+		"unocss-language-server": "./bin/server.sh"
 	},
 	"scripts": {
 		"compile": "tsc && cd client && tsc",
@@ -24,12 +24,13 @@
 		"typescript": "^4.8.4"
 	},
 	"dependencies": {
-		"@unocss/autocomplete": "^0.46.4",
-		"@unocss/config": "^0.46.4",
-		"@unocss/core": "^0.46.4",
-		"@unocss/preset-uno": "^0.46.4",
-		"unconfig": "^0.3.7",
+		"@unocss/autocomplete": "^0.55.7",
+		"@unocss/config": "^0.55.7",
+		"@unocss/core": "^0.55.7",
+		"@unocss/preset-uno": "^0.55.7",
+		"unconfig": "^0.3",
 		"vscode-languageserver": "^7.0.0",
 		"vscode-languageserver-textdocument": "^1.0.4"
-	}
+	},
+	"type": "module"
 }
