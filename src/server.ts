@@ -62,7 +62,7 @@ connection.onInitialize((params: InitializeParams) => {
         resolveProvider: true,
       },
       hoverProvider: true,
-      documentHighlightProvider: true,
+      documentHighlightProvider: false,
       colorProvider: true,
     },
   };
